@@ -29,7 +29,7 @@ const Works = () => (
             title="Foodnote"
             thumbnail={thumbRecipeBook}
           >
-            A website where people can post, share, and discover new recipes, cooks, images, videos and how-to's based on the food they like and the friends they follow.
+            A website where people can post, share, and discover new recipes, cooks, images, videos and how-to&apos;s based on the food they like and the friends they follow.
           </WorkGridItem>
         </Section>
 
@@ -44,7 +44,7 @@ const Works = () => (
         </Section>
         <Section delay={0.1}>
           <WorkGridItem id="" thumbnail={thumbWeather} title="Weatherio">
-            A simple weather website that does it's job.
+            A simple weather website that does it&apos;s job.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
