@@ -18,8 +18,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
 import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
-import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
+
 import Image from 'next/image'
 
 const ProfileImage = chakra(Image, {
@@ -93,10 +92,7 @@ const Home = () => (
         </Box>
       </Section>
       <Paragraph>
-      ㅤ
-      ㅤ
-      ㅤ
-      ㅤ
+      
 
 
 
