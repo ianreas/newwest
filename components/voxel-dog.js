@@ -8,21 +8,13 @@ function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
 }
 
-const firebaseConfig = {
-  apiKey: "AIzaSyDF1A7ej75FCzq987yqPCQr5UVyUCm42d0",
-  authDomain: "personalportfolio-dd685.firebaseapp.com",
-  projectId: "personalportfolio-dd685",
-  storageBucket: "personalportfolio-dd685.appspot.com",
-  messagingSenderId: "981008731706",
-  appId: "1:981008731706:web:95054afc431dbf934a6f03",
-  measurementId: "G-TTBDD9GM79"
-};
+
 
 const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = (process.env.NODE_ENV === 'production' ? '/computer.glb' : '') + 'https://firebasestorage.googleapis.com/v0/b/personalportfolio-dd685/o/computer.glb?alt=media&token=aafbb650-b199-4967-93a4-5ff3a193e6bf'
+  const urlDogGLB = (process.env.NODE_ENV === 'production' ? '/computer.glb' : '') + '/computer.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
