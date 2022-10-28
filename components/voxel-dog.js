@@ -3,6 +3,25 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../lib/model'
 import { DogSpinner, DogContainer } from './voxel-dog-loader'
+//import {initalizeApp} from 'firebase/app'
+//import {getStorage} from 'firebase/storage'
+
+/*const firebaseConfig = {
+  apiKey: "AIzaSyDF1A7ej75FCzq987yqPCQr5UVyUCm42d0",
+  authDomain: "personalportfolio-dd685.firebaseapp.com",
+  projectId: "personalportfolio-dd685",
+  storageBucket: "personalportfolio-dd685.appspot.com",
+  messagingSenderId: "981008731706",
+  appId: "1:981008731706:web:95054afc431dbf934a6f03",
+  measurementId: "G-TTBDD9GM79"
+};
+
+const app = initializeApp(firebaseConfig)
+const storage = getStorage()
+const storageRef = ref(storage)
+const computerRef = ref(storage, 'computer.glb')
+
+*/
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))
@@ -14,7 +33,7 @@ const VoxelDog = () => {
   const refContainer = useRef()
   const [loading, setLoading] = useState(true)
   const refRenderer = useRef()
-  const urlDogGLB = (process.env.NODE_ENV === 'production' ? '/computer.glb' : '') + '/computer.glb'
+  const urlDogGLB = (process.env.NODE_ENV === 'production' ? '' : '') + '/computer.glb'
 
   const handleWindowResize = useCallback(() => {
     const { current: renderer } = refRenderer
