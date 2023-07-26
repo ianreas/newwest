@@ -36,7 +36,8 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   )
 }
 
-const Navbar = props => {
+const Navbar = props => {  //where in the project is this Navbar used?
+
   const { path } = props
 
   return (

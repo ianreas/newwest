@@ -61,7 +61,7 @@ const Home = () => (
             overflow="hidden"
           >
             <ProfileImage
-              src="/images/IMG_3679.jpeg"
+              src="/images/muhammedik.jpg"
               alt="Profile image"
               borderRadius="full"
               width="100%"
@@ -76,10 +76,9 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          I am a freelance and full-stack software developer based in New York with a
-          passion for building digital services. I never get tired of coding and I aspire to be a 10X developer. I have made it my life goal to help people and businesses by providing them with world class and professional service. For example, I built a full stack website called
-          RaushanLoader
-           for a Trucking company called Raushan Logistics which allowed their business to scale and resulted in a $2.1 million revenue increase. I am always very eager to learn new technologies and frameworks, as my number 1 talent is a talent for learning fast and effectively. You can check my works here: 
+        As a freelance and full-stack software developer based in New York, I am passionate about building digital services that help businesses thrive.
+         With an unwavering love for coding, I strive to become a 10X developer and provide world-class, professional service to my clients. My ultimate goal is to leverage my skills and expertise to make a positive impact on the world, one project at a time. In order to stay at the forefront of my field, I am constantly seeking out new technologies and frameworks, and my ability to learn quickly and effectively is one of my greatest strengths. I take pride in producing high-quality work and delivering exceptional results for my clients. You can check out my portfolio to see some of my past projects and get a sense of my capabilities.
+           
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
