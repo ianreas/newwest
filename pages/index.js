@@ -138,6 +138,10 @@ const Home = () => (
         <BioYear>2022</BioYear>
           Worked in PrincetonDev developing games.
         </BioSection>
+        <BioSection>
+        <BioYear>2023 - Present</BioYear>
+          Working as a Full Stack Engineer for Fiber AI (YC S23).
+        </BioSection>
       </Section>
 
       <Section delay={0.3}>
