@@ -127,12 +127,8 @@ const Home = () => (
           Started trading options and using statistical modeling to develop trading algorithms in order to analyze investment opportunities.  
         </BioSection>
         <BioSection>
-          <BioYear>2020</BioYear>
-          Developed a new passion for software development
-        </BioSection>
-        <BioSection>
-          <BioYear>2021 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2021</BioYear>
+          Worked as a freelancer
         </BioSection>
         <BioSection>
         <BioYear>2022</BioYear>
