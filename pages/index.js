@@ -42,7 +42,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Muhammed Makhambet
           </Heading>
-          <p>Software Developer (Web-Developer / Software Engineer / Data Scientist)</p>
+          <p>Software Developer</p>
         </Box>
         <Box
           flexShrink={0}
@@ -73,12 +73,14 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About my work
         </Heading>
         <Paragraph>
-        As a freelance and full-stack software developer based in New York, I am passionate about building digital services that help businesses thrive.
-         With an unwavering love for coding, I strive to become a 10X developer and provide world-class, professional service to my clients. My ultimate goal is to leverage my skills and expertise to make a positive impact on the world, one project at a time. In order to stay at the forefront of my field, I am constantly seeking out new technologies and frameworks, and my ability to learn quickly and effectively is one of my greatest strengths. I take pride in producing high-quality work and delivering exceptional results for my clients. You can check out my portfolio to see some of my past projects and get a sense of my capabilities.
-           
+          I am a software engineer whose interests lie at the intersection of
+          full-stack development, distributed systems, and AI engineering. I've
+          built distributed DAG workflow orchestration frameworks, scalable &
+          user-facing AI applications, and complex ETL pipelines. Outside work,
+          I like to read classical literature, climb, and play some guitar.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -88,29 +90,22 @@ const Home = () => (
           </NextLink>
         </Box>
       </Section>
-      <Paragraph>
-      
-
-
-
-
-      </Paragraph>
+      <Paragraph></Paragraph>
 
       <Section>
-      <Heading as="h2" variant="page-title">
-            Tech Stack, Languages, and Frameworks
-          </Heading>
-          <Heading as="h3" variant="section-title">
+        <Heading as="h2" variant="page-title">
+          Tech Stack, Languages, and Frameworks
+        </Heading>
+        <Heading as="h3" variant="section-title">
           Front-End
         </Heading>
-        <Paragraph>
-          JavaScript, TypeScript, Next.js, React, ChakraUI, Flutter, Tailwind, Bootstrap, CSS, HTML, Angular, Sass, Python, C#, Java, Blender, three.js, numpy, Matplotlib.
-        </Paragraph>
+        <Paragraph>Next.js, React, ChakraUI, Tailwind.</Paragraph>
         <Heading as="h3" variant="section-title">
           Back-End
         </Heading>
         <Paragraph>
-          Firebase, GraphQL, Express.js, mongoDB, Flask, Node.js, Apache, SQL, PostgreSQL.
+          Node js, TypeScript, Python, LangChain, CUDA, TensorFlow, PyTorch, C#,
+          Java, C++, C, SQL, PostgreSQL
         </Paragraph>
       </Section>
 
@@ -124,19 +119,20 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2020</BioYear>
-          Started trading options and using statistical modeling to develop trading algorithms in order to analyze investment opportunities.  
+          Started trading options and using statistical modeling to develop
+          trading algorithms in order to analyze investment opportunities.
         </BioSection>
         <BioSection>
           <BioYear>2021</BioYear>
           Worked as a freelancer
         </BioSection>
         <BioSection>
-        <BioYear>2022</BioYear>
+          <BioYear>2022</BioYear>
           Worked in PrincetonDev developing games.
         </BioSection>
         <BioSection>
-        <BioYear>2023 - Present</BioYear>
-          Working as a Full Stack Engineer for Fiber AI (YC S23).
+          <BioYear>2023 - Present</BioYear>
+          Working as a Full Stack Founding Engineer for Fiber AI (YC S23).
         </BioSection>
       </Section>
 
@@ -145,7 +141,8 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Rock music, my cat Oliver, math, astronomy, trading options, and drawing.
+          Art, Rock music, my cat Oliver, math, astronomy, trading options, and
+          drawing.
         </Paragraph>
       </Section>
 
@@ -177,7 +174,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://instagram.com/ian.thecheesestomper" target="_blank">
+            <Link
+              href="https://instagram.com/ian.thecheesestomper"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -189,7 +189,6 @@ const Home = () => (
           </ListItem>
         </List>
 
-        
         <Box align="center" my={4}>
           <NextLink href="/posts" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
