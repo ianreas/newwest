@@ -100,13 +100,24 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Front-End
         </Heading>
-        <Paragraph>Next.js, React, ChakraUI, Tailwind.</Paragraph>
+        <Paragraph>Next.js, React, Tailwind.</Paragraph>
         <Heading as="h3" variant="section-title">
           Back-End
         </Heading>
         <Paragraph>
-          Node js, TypeScript, Python, LangChain, CUDA, TensorFlow, PyTorch, C#,
-          Java, C++, C, SQL, PostgreSQL
+          Node js, TypeScript, Python, C#, Java, C++, C, SQL, PostgreSQL, Redis
+        </Paragraph>
+        <Heading as="h3" variant="section-title">
+          Machine Learning
+        </Heading>
+        <Paragraph>
+          Python, CUDA, TensorFlow, PyTorch, JAX, LangChain
+        </Paragraph>
+        <Heading as="h3" variant="section-title">
+          Infrastructure
+        </Heading>
+        <Paragraph>
+          AWS, Azure, Docker, Kubernetes, EKS, Terraform, Helm, CI/CD, Github Actions,
         </Paragraph>
       </Section>
 
