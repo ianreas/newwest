@@ -77,10 +77,11 @@ const Home = () => (
         </Heading>
         <Paragraph>
           I am a software engineer whose interests lie at the intersection of
-          full-stack development, distributed systems, and AI engineering. I've
-          built distributed DAG workflow orchestration frameworks, scalable &
-          user-facing AI applications, and complex ETL pipelines. Outside work,
-          I like to read classical literature, climb, and play some guitar.
+          full-stack development, distributed systems, and AI engineering.
+          I&apos;ve built distributed DAG workflow orchestration frameworks,
+          scalable & user-facing AI applications, and complex ETL pipelines.
+          Outside work, I like to read classical literature, climb, and play
+          some guitar.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
