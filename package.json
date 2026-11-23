@@ -12,6 +12,9 @@
   "keywords": [],
   "author": "Muhammed Makhambet",
   "license": "MIT",
+  "engines": {
+    "node": "22.x"
+  },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.8",
     "@chakra-ui/react": "^2.2.8",
