@@ -1,4 +1,11 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import {
+  Box,
+  Container,
+  Heading,
+  SimpleGrid,
+  Text,
+  useColorModeValue
+} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -13,38 +20,58 @@ const Works = () => (
         Works
       </Heading>
 
+      <Section>
+        <Box
+          borderRadius="lg"
+          mb={6}
+          p={4}
+          textAlign="center"
+          bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
+          css={{ backdropFilter: 'blur(10px)' }}
+        >
+          <Text fontSize={20} color={useColorModeValue('pink.500', 'pink.700')}>
+            Agent Fleet
+          </Text>
+          <Text fontSize={14}>
+            Runs Claude Code and Codex sessions across a laptop and VMs with no
+            central server. Daemons claim tasks from a Postgres queue with
+            leases, and an iOS app answers agent prompts by push.
+          </Text>
+        </Box>
+      </Section>
+
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
-        <Section>
+        <Section delay={0.1}>
           <WorkGridItem
-            id=""
-            title="BuildingAlpha"
-            thumbnail={thumbBuildingAlpha}
+            href="https://www.meowpaas.com/"
+            title="MeowPaas"
+            thumbnail={thumbMeowPaas}
           >
-            BuildingAlpha is a single, integrated platform to search, retrieve,
-            visualize and analyze financial options data.
+            Heroku-style deploys on Kubernetes, in Go. One request builds a
+            repo into a container, runs it on EKS in a per-user namespace,
+            opens a PR with a generated CI workflow, and streams logs and a
+            live service map.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem id="" title="MeowPaas" thumbnail={thumbMeowPaas}>
-            A cloud deployment platform with enterprise-grade performance
-            optimization built into its core. Built on top of EC2, it uses
-            Kubernetes to deploy applications that require container-level
-            optimizations to achieve maximum performance for different
-            workloads.
+          <WorkGridItem
+            href="https://building-alpha-new-ui.vercel.app"
+            title="BuildingAlpha"
+            thumbnail={thumbBuildingAlpha}
+          >
+            A tool that scans options for inflated implied volatility on the 3D
+            volatility surface. I used it to run short-volatility strategies
+            based on statistical models.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-      <Heading as="h3" fontSize={20} mb={4}>
+      <Heading as="h3" fontSize={20} mb={4} mt={6}>
         Collaborations
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem
-            id=""
-            title="The Ode of the Times"
-            thumbnail={thumbGame}
-          >
+          <WorkGridItem title="The Ode of the Times" thumbnail={thumbGame}>
             An RPG, quest based game. Collaborated with Meta software engineer
             Yermek Ibrayev. Work still in progress.
           </WorkGridItem>

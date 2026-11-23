@@ -15,21 +15,27 @@ const Main = ({ children, router }) => {
     <Box as="main" pb={8}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta name="description" content="Muhammed Makhambet's homepage" />
-        <meta name="author" content="Muhammed Makhambet" />
-        <meta name="author" content="craftzdog" />
+        <meta
+          name="description"
+          content="Muhammed (Ian) Makhambet. Founding engineer in New York: AI systems, infrastructure and product."
+        />
+        <meta name="author" content="Muhammed (Ian) Makhambet" />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <meta name="twitter:title" content="Muhammed Makhambet" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@craftzdog" />
-        <meta name="twitter:creator" content="@craftzdog" />
-        <meta name="twitter:image" content="https://www.craftz.dog/card.png" />
-        <meta property="og:site_name" content="Muhammed Makhambet" />
-        <meta name="og:title" content="Muhammed Makhambet" />
+        <meta name="twitter:title" content="Muhammed (Ian) Makhambet" />
+        <meta name="twitter:card" content="summary" />
+        <meta
+          name="twitter:image"
+          content="https://muhammedmakhambet.com/images/muhammedik.jpg"
+        />
+        <meta property="og:site_name" content="Muhammed (Ian) Makhambet" />
+        <meta property="og:title" content="Muhammed (Ian) Makhambet" />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://www.craftz.dog/card.png" />
-        <title>Muhammed Makhambet - Homepage</title>
+        <meta
+          property="og:image"
+          content="https://muhammedmakhambet.com/images/muhammedik.jpg"
+        />
+        <title>Muhammed (Ian) Makhambet</title>
       </Head>
 
       <NavBar path={router.asPath} />

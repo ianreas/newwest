@@ -81,7 +81,7 @@ const Navbar = props => {  //where in the project is this Navbar used?
           
           <LinkItem
             target="_blank"
-            href="https://github.com/ianreas/myporfolio"
+            href="https://github.com/ianreas/newwest"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -117,7 +117,7 @@ const Navbar = props => {  //where in the project is this Navbar used?
                 
                 <MenuItem
                   as={Link}
-                  href="https://github.com/ianreas/myporfolio"
+                  href="https://github.com/ianreas/newwest"
                 >
                   View Source
                 </MenuItem>
